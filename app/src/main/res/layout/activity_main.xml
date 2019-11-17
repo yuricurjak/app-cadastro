@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/cadastrarMain"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60px"
+        android:background="@color/colorAccent"
+        android:text="Cadastrar"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/deletarMain"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60px"
+        android:background="@color/colorAccent"
+        android:text="Deletar"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/listarMain"
+        android:layout_width="353dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="60px"
+        android:background="@color/colorAccent"
+        android:text="Listar"
+        android:textColor="@android:color/white" />
+</LinearLayout>
